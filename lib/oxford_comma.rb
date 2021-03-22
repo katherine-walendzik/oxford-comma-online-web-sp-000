@@ -3,4 +3,3 @@ def oxford_comma(array)
     last = arr.pop
     arr.join(", ") + ", and " + last.to_s
   end
-end
